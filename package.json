@@ -1,15 +1,15 @@
 {
   "suluPackage": {
-    "hotkeys" : [
+    "hotkeys": [
       {
-        "key" : "ctrl+f7" , 
-        "function" : "createFile"
+        "key": "ctrl+f7",
+        "function": "createFile"
       }
     ]
   },
   "name": "sulu-file-system-view-create-file",
   "description": "SULU file creator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "bump": "npm version patch && git push && git push --tags && npm publish",
