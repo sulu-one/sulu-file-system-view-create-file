@@ -38,7 +38,6 @@ Command.prototype.createFile = function createFile() {
 
 var Plugin = function (client) {
 	this.command = new Command(); 
-	client.app.registerHotKey("ctrl+f7", this.command.createFile);
 };
 
 module.exports = Plugin;

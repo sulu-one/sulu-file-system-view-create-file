@@ -1,5 +1,12 @@
 {
-  "suluPackage": true,
+  "suluPackage": {
+    "hotkeys" : [
+      {
+        "key" : "ctrl+f7" , 
+        "function" : "createFile"
+      }
+    ]
+  },
   "name": "sulu-file-system-view-create-file",
   "description": "SULU file creator",
   "version": "1.0.2",
